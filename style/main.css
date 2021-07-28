@@ -47,7 +47,7 @@ header nav a:hover {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/dark4.jpg');
   
-  height: 400px;
+  height: 500px;
   background-size: cover;
   
   display: flex;
@@ -55,6 +55,7 @@ header nav a:hover {
   justify-content: center;
   align-items: flex-start; 
 
+  margin-bottom: -40px;
 }
 
 .filme-principal .titulo {
@@ -102,6 +103,12 @@ header nav a:hover {
   margin-right: 8px;
 }
 
+h4 {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 16px;
+}
+
 .container {
   margin-left: 20px;
 }
@@ -118,4 +125,12 @@ header nav a:hover {
 
 .carousel-filmes {
   margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  color: #AAA;
+
 }
