@@ -15,3 +15,60 @@
     width: 50%;
   }
 }
+
+/* motoG4 */
+@media screen and (max-width: 360px){
+  h4 {
+    margin-bottom: 50px;
+  }
+}
+
+/* pixel 2 */
+@media screen and (max-width: 411px){
+  h4 {
+    margin-bottom: 50px;
+  }
+}
+
+/* iPhone 5/SE */
+@media screen and (max-width: 320px){
+  h4 {
+    margin-top: 30px;
+  }
+  main .titulo {
+    margin-top: 70px;
+  }
+
+  .assistir, .informacao {
+    margin-top: 20px;
+    width: 180px;
+  }
+
+  .descricao {
+    display: none;
+  }
+}
+
+/* iPhone 6/7/8 plus */
+@media screen and (max-width: 414px){
+  h4 {
+    margin-bottom: 70px;
+  }
+
+}
+
+/* Surface Dou */
+@media screen and (max-width: 540px){
+  h4 {
+    margin-bottom: 70px;
+  }
+
+}
+
+/* Surface Dou */
+@media screen and (max-width: 280px){
+  nav {
+    display: none;
+  }
+
+}
