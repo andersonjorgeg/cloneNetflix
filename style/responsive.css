@@ -16,13 +16,6 @@
   }
 }
 
-/* motoG4 */
-@media screen and (max-width: 360px){
-  h4 {
-    margin-bottom: 50px;
-  }
-}
-
 /* pixel 2 */
 @media screen and (max-width: 411px){
   h4 {
@@ -31,7 +24,7 @@
 }
 
 /* iPhone 5/SE */
-@media screen and (max-width: 359px) and (min-width: 100px){
+@media screen and (max-width: 410px) and (min-width: 100px){
   h4 {
     margin-top: 30px;
   }
